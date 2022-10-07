@@ -13,9 +13,9 @@ const theme = extendTheme({
     Link: {
       // 1. We can update the base styles
       baseStyle: {
-        color: mode('black', 'green.100'),
+        color: mode('black', 'red.100'),
         _hover:{
-            color:'green.400'
+            color:'red.400'
         }
       }
     }

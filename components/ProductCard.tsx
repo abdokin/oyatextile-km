@@ -108,7 +108,7 @@ const ProductCard = ({
               position="absolute"
               top="2"
               right="2"
-              color="#299D8C"
+              color="#D12130"
               bg="white"
               border={"1px"}
               px="2"
@@ -213,7 +213,7 @@ const ProductCard = ({
                                     w="30px"
                                     p="1"
                                     color="black"
-                                    // color="#299D8C"
+                                    // color="#D12130"
                                     variant="ghost"
                                   >
                                     <AddIcon />
@@ -224,7 +224,7 @@ const ProductCard = ({
                                     w="30px"
                                     p="1"
                                     color="black"
-                                    // color="#299D8C"
+                                    // color="#D12130"
                                     variant="ghost"
                                   >
                                     <MinusIcon />
@@ -234,7 +234,7 @@ const ProductCard = ({
                                     h="30px"
                                     w="30px"
                                     p="1"
-                                    color="#299D8C"
+                                    color="#D12130"
                                     variant="ghost"
                                   >
 
@@ -378,7 +378,6 @@ const ProductCard = ({
                   </Box>
                 </NextLink>
               </Link> */}
-
             </Box>
           </ModalFooter>
         </ModalContent>

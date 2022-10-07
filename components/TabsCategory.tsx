@@ -41,7 +41,7 @@ const TabsCategory = ({
         variant="line"
         px="4"
         pt="4"
-        colorScheme={"#299D8C"}
+        colorScheme={"#D12130"}
         w="fit-content"
         margin={"auto"}
       >

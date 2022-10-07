@@ -45,7 +45,7 @@ const Article = ({ body, post }) => {
           <Box>
             <Heading
               textAlign={"center"}
-              bg="#299D8C"
+              bg="#D12130"
               py="4"
               color="white"
               px="4"

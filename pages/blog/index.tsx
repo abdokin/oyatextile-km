@@ -49,7 +49,7 @@ const Blog = ({ posts, categories }: any) => {
               return (
                 <Tab
                   key={i}
-                  _selected={{ color: "#299D8C" }}
+                  _selected={{ color: "#D12130" }}
                   fontSize={{ base: "14" }}
                 >
                   {category}

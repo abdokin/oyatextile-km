@@ -135,7 +135,7 @@ export default function Contact() {
     >
       <Box
         p={{ base: "2", lg: "12" }}
-        bg="#299D8C"
+        bg="#D12130"
         color="white"
         w={{ base: "sm", md: "fit-content" }}
         display="flex"
@@ -296,7 +296,7 @@ export default function Contact() {
                 border={"none"}
                 borderBottom="1px"
                 borderRadius={0}
-                borderColor="#299D8C"
+                borderColor="#D12130"
                 placeholder="Message/Request"
                 fontSize={"14"}
                 _placeholder={{
@@ -313,7 +313,7 @@ export default function Contact() {
                 fontSize={"14"}
                 borderRadius={0}
                 variant="solid"
-                bg="#299D8C"
+                bg="#D12130"
                 onClick={(e) => {
                   e.preventDefault();
                   const data = {
@@ -359,7 +359,7 @@ export default function Contact() {
               label={"Twitter"}
               href={"https://twitter.com/Oyaevtekstili"}
             >
-              <FaTwitter fill="#299D8C" style={{}} />
+              <FaTwitter fill="#D12130" style={{}} />
             </SocialButton>
           </TransDiv>
           <TransDiv>
@@ -367,7 +367,7 @@ export default function Contact() {
               label={"YouTube"}
               href={"https://www.youtube.com/channel/UCaFjHW4MOhyVwvLbYoMoGIQ"}
             >
-              <FaYoutube fill="#299D8C" />
+              <FaYoutube fill="#D12130" />
             </SocialButton>
           </TransDiv>
           <TransDiv>
@@ -375,7 +375,7 @@ export default function Contact() {
               label={"Instagram"}
               href={"https://www.instagram.com/oyaevtekstili/"}
             >
-              <FaInstagram fill="#299D8C" />
+              <FaInstagram fill="#D12130" />
             </SocialButton>
           </TransDiv>
           <TransDiv>
@@ -383,7 +383,7 @@ export default function Contact() {
               label={"Facebook"}
               href={"https://web.facebook.com/oyahomehoteltextile/?_rdc=1&_rdr"}
             >
-              <FaFacebook fill="#299D8C" />
+              <FaFacebook fill="#D12130" />
             </SocialButton>
           </TransDiv>
           <TransDiv>
@@ -391,7 +391,7 @@ export default function Contact() {
               label={"Linkedin"}
               href={"https://www.linkedin.com/company/28625375/admin/"}
             >
-              <FaLinkedin fill="#299D8C" />
+              <FaLinkedin fill="#D12130" />
             </SocialButton>
           </TransDiv>
         </Stack>

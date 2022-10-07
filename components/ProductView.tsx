@@ -133,7 +133,7 @@ function ProductView({
                               w="30px"
                               p="1"
                               color="black"
-                              // color="#299D8C"
+                              // color="#D12130"
                               variant="ghost"
                             >
                               <AddIcon />
@@ -144,7 +144,7 @@ function ProductView({
                               w="30px"
                               p="1"
                               color="black"
-                              // color="#299D8C"
+                              // color="#D12130"
                               variant="ghost"
                             >
                               <MinusIcon />
@@ -210,7 +210,7 @@ function ProductView({
           variant="line"
           px="4"
           pt="4"
-          colorScheme={"#299D8C"}
+          colorScheme={"#D12130"}
           cursor="pointer"
         >
           <TabList
@@ -241,7 +241,7 @@ function ProductView({
               alignSelf="self-start"
               letterSpacing={2}
               // _selected={{
-              // color: "#299D8C",
+              // color: "#D12130",
               // textDecoration: "underline",
               // textUnderlineOffset: "10px",
               // }}
@@ -256,7 +256,7 @@ function ProductView({
               alignSelf="self-start"
               letterSpacing={2}
               // _selected={{
-              // color: "#299D8C",
+              // color: "#D12130",
               // textDecoration: "underline",
               // textUnderlineOffset: "10px",
               // }}

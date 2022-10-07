@@ -45,7 +45,7 @@ const ListSocial = () => {
           label={"Twitter"}
           href={"https://twitter.com/Oyaevtekstili"}
         >
-          <FaTwitter fill="#299D8C" style={{}} />
+          <FaTwitter fill="#D12130" style={{}} />
         </SocialButton>
       </TransDiv>
       <TransDiv>
@@ -53,7 +53,7 @@ const ListSocial = () => {
           label={"YouTube"}
           href={"https://www.youtube.com/channel/UCaFjHW4MOhyVwvLbYoMoGIQ"}
         >
-          <FaYoutube fill="#299D8C" />
+          <FaYoutube fill="#D12130" />
         </SocialButton>
       </TransDiv>
       <TransDiv>
@@ -61,7 +61,7 @@ const ListSocial = () => {
           label={"Instagram"}
           href={"https://www.instagram.com/oyaevtekstili/"}
         >
-          <FaInstagram fill="#299D8C" />
+          <FaInstagram fill="#D12130" />
         </SocialButton>
       </TransDiv>
       <TransDiv>
@@ -69,7 +69,7 @@ const ListSocial = () => {
           label={"Facebook"}
           href={"https://web.facebook.com/oyahomehoteltextile/?_rdc=1&_rdr"}
         >
-          <FaFacebook fill="#299D8C" />
+          <FaFacebook fill="#D12130" />
         </SocialButton>
       </TransDiv>
       <TransDiv>
@@ -77,7 +77,7 @@ const ListSocial = () => {
           label={"Linkedin"}
           href={"https://www.linkedin.com/company/28625375/admin/"}
         >
-          <FaLinkedin fill="#299D8C" />
+          <FaLinkedin fill="#D12130" />
         </SocialButton>
       </TransDiv>
     </Stack>
@@ -96,7 +96,7 @@ export default function Footer() {
         w="full"
       >
         <Stack spacing={4} w="fit-content" alignSelf={"center"}>
-          <Logo index="4" />
+          <Logo />
           <ListSocial />
         </Stack>
         <Stack

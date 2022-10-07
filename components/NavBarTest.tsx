@@ -79,11 +79,11 @@ export default function Simple() {
           // left={"50%"}
           // right={'50%'}
           marginLeft="auto"
-
+         
           // translateX={"-50%"}
         >
           <NextLink href="/">
-            <Logo />
+                <Logo/>
           </NextLink>
         </Link>{" "}
         <Flex

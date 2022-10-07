@@ -96,7 +96,11 @@ export default function Footer() {
         w="full"
       >
         <Stack spacing={4} w="fit-content" alignSelf={"center"}>
-          <Logo />
+          <Link>
+            <NextLink href="/">
+              <Image w="64" src={"/images/logo/second.jpg"} />
+            </NextLink>
+          </Link>
           <ListSocial />
         </Stack>
         <Stack

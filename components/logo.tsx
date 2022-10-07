@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <Link>
       <NextLink href="/">
-        <Image w="64" src={"/images/logo/km.jpg"} />
+        <Image w="64" src={"/images/logo/km.png"} />
       </NextLink>
     </Link>
   );

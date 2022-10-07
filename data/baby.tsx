@@ -2,13 +2,13 @@ import { Box, Center, Heading, Image, Show, Text } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import React from "react";
-import SeoTags from "../../components/seoTags";
-import TabsCategory from "../../components/TabsCategory";
+import SeoTags from "../components/seoTags";
+import TabsCategory from "../components/TabsCategory";
 
 import client, {
   getAllproductByPage,
   getSeoForPate,
-} from "../../lib/apollo-client";
+} from "../lib/apollo-client";
 const HeadCat = () => {
   return (
     <Box justifyContent="center" w="full" alignItems="center">

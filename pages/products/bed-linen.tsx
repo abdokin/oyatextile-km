@@ -1,8 +1,8 @@
 import { Box, Center, Heading, Text } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import React from "react";
-import TabsCategory from "../components/TabsCategory";
-import client, { getAllproductByPage } from "./apollo-client";
+import TabsCategory from "../../components/TabsCategory";
+import client, { getAllproductByPage } from "../../lib/apollo-client";
 const HeadCat = () => {
   return (
     <Box justifyContent="center" w="md" alignItems="center">
